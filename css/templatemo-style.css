@@ -397,11 +397,11 @@ a#logo {
 04. WELCOME BLOCK CSS
 ================================================*/
 .welcome-box {
-  font-size:20px;
+  font-size:200%;
   line-height:1.7;
 }
 .welcome-first{
-  font-size: 32px;
+  font-size: 40px;
   display: block;
   text-transform: uppercase;
   font-weight: 300;
@@ -413,6 +413,7 @@ a#logo {
   width:100%;
   margin:0 auto 30px;
   color: #fff;
+  margin-bottom: 0;
 }
 .welcome-title {
   font-weight: 700;
@@ -453,19 +454,26 @@ a#logo {
 /*==============================================
 05. ABOUT ME
 ================================================*/
+.overlay {
+  background: #9a004c;
+  opacity: 1;
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  position: absolute;
+}
 .about-img {
   margin: 0 auto 40px;
   position:relative;
 }
-.about-img img {
-  border-radius: 10px;
-  -webkit-box-shadow: 0 0 40px rgba(0,0,0,.3);
-  box-shadow: 0 0 40px rgba(0,0,0,.3);
+.about-img > img {
+  border-radius: 50%;
 }
 .about-contentbox {
   margin-top: 80px;
   text-align:left;
   line-height:1.8;
+  font-size: 200%;
 }
 .about-contentbox span {
   font-size: 24px;

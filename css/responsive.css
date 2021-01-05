@@ -16,10 +16,10 @@
 		margin: 20px auto 5px;
 	}
 	.welcome-first {
-		font-size: 26px;
+		font-size: 40px;
 	}
 	.welcome-box p {
-		margin-bottom: 20px;
+		/* margin-bottom: 20px; */
 	}
 	.navbar-nav li a {
 		font-size: 15px;
