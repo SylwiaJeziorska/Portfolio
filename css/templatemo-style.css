@@ -401,12 +401,16 @@ a#logo {
   line-height:1.7;
 }
 .welcome-first{
-  font-size: 40px;
+  font-size: 70px;
   display: block;
   text-transform: uppercase;
-  font-weight: 300;
+  font-weight: 900;
   line-height: 1.2;
   letter-spacing: 0.02em;
+
+}
+.welcome-box > span.welcome-first{
+  font-size: 70px;
 }
 .welcome-box p {
   max-width: 620px;
@@ -458,12 +462,22 @@ a#logo {
   background: #9a004c;
   opacity: 1;
   border-radius: 50%;
-  height: 350px;
-  width: 350px;
+  height: 150px;
+  width: 150px;
   position: absolute;
   top: 0;
   opacity: 0.6;
-  right: 40px;
+}
+.overlay-2 {
+  background: #9a004c;
+  opacity: 1;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  opacity: 0.6;
+  right: 0;
+  bottom: 0;
 }
 .about-img {
   margin: 0 auto 40px;
@@ -471,6 +485,7 @@ a#logo {
 }
 .about-img > img {
   border-radius: 50%;
+  opacity: 0.5;
 }
 .about-contentbox {
   margin-top: 80px;
