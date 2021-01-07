@@ -95,7 +95,7 @@ h6 {
 }
 h1,
 h2 {
-  font-size: 32px;
+  font-size: 46px;
 }
 h3 {
   font-size: 30px;
@@ -397,7 +397,7 @@ a#logo {
 04. WELCOME BLOCK CSS
 ================================================*/
 .welcome-box {
-  font-size:200%;
+  font-size:300%;
   line-height:1.7;
 }
 .welcome-first{
@@ -491,7 +491,7 @@ a#logo {
   margin-top: 80px;
   text-align:left;
   line-height:1.8;
-  font-size: 200%;
+  font-size: 300%;
 }
 .about-contentbox span {
   font-size: 24px;
@@ -499,7 +499,7 @@ a#logo {
   font-weight: 300;
 }
 .about-contentbox h2 {
-  font-size: 32px;
+  font-size: 46px;
   text-transform: uppercase;
   font-weight: 700;
 }
