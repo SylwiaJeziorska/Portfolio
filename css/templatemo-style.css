@@ -827,6 +827,12 @@ textarea.form-control {
 .skills-row {
   margin-top: 80px;
 }
+.skills-row > p{
+  font-size: 30px;
+}
+.link{
+  color: black;
+}
 .skill-item {
   border-bottom: 1px solid rgba(250,250,250,0.1);
   margin-bottom: 50px;
