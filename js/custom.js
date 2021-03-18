@@ -199,4 +199,6 @@
             $('body').removeClass('sidemenu-open');
         });
     });
+    var vid = document.getElementById("myVideo");
+    vid.playbackRate = 0.5;
 })(jQuery, window, document);
