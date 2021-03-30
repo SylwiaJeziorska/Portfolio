@@ -200,5 +200,6 @@
         });
     });
     var vid = document.getElementById("myVideo");
-    vid.playbackRate = 0.8;
+    vid.playbackRate = 0.6
+    ;
 })(jQuery, window, document);
